@@ -4,7 +4,7 @@ import CSSModules from 'react-css-modules';
 import styles from './toggleButton.less'
 import {generate} from 'shortid';
 
-class ToggleButton extends Component {
+export class ToggleButton extends Component {
 	constructor(props) {
 		super(props);
 	}
