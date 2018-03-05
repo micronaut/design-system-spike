@@ -1,0 +1,41 @@
+{
+  "name": "omni-design-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "jest": {
+    "setupFiles": [
+      "./jest.config.js"
+    ],
+    "automock": false
+  },
+  "author": "Eric Danowski <eric.m.danowski@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.3.14",
+    "@storybook/addon-info": "^3.3.14",
+    "@storybook/cli": "^3.3.14",
+    "@storybook/react": "^3.3.14",
+    "babel-core": "^6.26.0",
+    "css-loader": "^0.28.10",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "expect": "^22.4.0",
+    "jest": "^22.4.2",
+    "less": "^3.0.1",
+    "less-loader": "^4.0.6",
+    "react-css-modules": "^4.7.1",
+    "shortid": "^2.2.8",
+    "storybook-addon-specifications": "^2.1.1",
+    "style-loader": "^0.20.2",
+    "v8": "^0.1.0"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}

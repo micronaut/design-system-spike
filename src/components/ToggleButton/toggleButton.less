@@ -1,0 +1,69 @@
+@charset 'utf-8';
+
+.heading {
+	font-size: 16px;
+	font-weight: 400;
+	border: none;
+	color: #333;
+	padding-left: 23px;
+	background: url(/ps/Rio/images/limit-expand.png) no-repeat;
+
+	&--expanded {
+		background-position:  0 -53px;
+	}
+
+	&--collapsed {
+		background-position: 0 -161px;
+	}
+
+	&--small {
+		background: none;
+	}
+}
+
+.entries {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 7px;
+
+	&--collapsed {
+		display: none;
+	}
+	&--expanded {
+		display: block;
+	}
+}
+
+.item {
+	padding: 5px 10px;
+	&:nth-child(even) {
+		background: #efefef;
+	}
+
+	&-image {
+		margin: 5px 0px;
+	}
+	&--overflow {
+		display: none;
+	}
+}
+
+.toggle {
+	font-size: 16px;
+	font-weight: 400;
+	border: none;
+	color: #333;
+	padding-left: 0;
+	background: url(/ps/Rio/images/limit-expand.png) no-repeat;
+	width: 100%;
+	text-align : left;
+	margin-top : 10px;
+
+	&--expanded {
+		background-position:  right -53px;
+	}
+
+	&--collapsed {
+		background-position: right -161px;
+	}
+}
