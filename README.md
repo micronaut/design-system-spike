@@ -21,11 +21,11 @@ Usage
 ```
 npm run storybook
 ```
-Open [http://localhost:9001/](http://localhost:9001/}
+Open [http://localhost:9001/](http://localhost:9001/)
 
 
 ### To run Styleguidist
 ```
 npm run styleguide
 ```
-Open [http://localhost:6060/](http://localhost:6060/}
+Open [http://localhost:6060/](http://localhost:6060/)
