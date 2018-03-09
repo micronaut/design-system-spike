@@ -3,7 +3,7 @@ LinkItem example:
 
 ```js
 const item = {
-        url: "some/url",
+        url: "https://react-styleguidist.js.org/",
         text: "this is a link",
         image: "link.png"
 };

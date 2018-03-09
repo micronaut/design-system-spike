@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    assetsDir: path.join(__dirname, '/src/assets/'),
     webpackConfig: {
         module: {
             rules: [
