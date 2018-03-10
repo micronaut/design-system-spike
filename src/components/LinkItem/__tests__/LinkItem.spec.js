@@ -2,10 +2,10 @@
 
 import React from 'react';
 import LinkItem from '../LinkItem';
-import {render, mount} from 'enzyme'
+import { render, mount, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-jest.mock('jquery');
-jest.mock('OMNI');
+configure({ adapter: new Adapter() });
 
 it('renders link with image and alt text if passed', () => {
 	const item =

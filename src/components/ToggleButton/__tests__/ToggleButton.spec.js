@@ -2,10 +2,12 @@
 
 import React from 'react';
 import ToggleButton from '../ToggleButton';
-import {render, mount} from 'enzyme'
+import { render, mount, configure } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
 
-jest.mock('jquery');
-jest.mock('OMNI');
+configure({ adapter: new Adapter() });
+
+
 jest.unmock('shortid');
 
 const shortid = require('shortid');
