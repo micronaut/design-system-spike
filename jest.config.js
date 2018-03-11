@@ -18,7 +18,7 @@ module.exports = {
         "\\.(css|less)$": "identity-obj-proxy"
     },
     "collectCoverageFrom": [
-        "src/components/**/LinkItem.jsx"
+        "src/components/**/*.jsx"
     ],
     "coverageReporters": [
         "cobertura",
