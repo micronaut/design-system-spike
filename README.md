@@ -6,6 +6,8 @@ Spike of design system using [Storybook](https://storybook.js.org/) and [React S
 Installation
 ============
 
+All development was done with yarn, so using npm may result in errors.
+
 ```
 yarn
 ```
