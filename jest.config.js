@@ -21,6 +21,16 @@ module.exports = {
         "src/components/**/LinkItem.jsx"
     ],
     "coverageReporters": [
-        "text"
-    ]
+        "cobertura",
+        "html"
+    ],
+    "coverageDirectory": "target/coverage/",
+    "coverageThreshold": {
+        "global": {
+            "statements": 100,
+            "branches": 100,
+            "functions": 100,
+            "lines": 100
+        }
+    }
 };
