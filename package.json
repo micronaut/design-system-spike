@@ -42,8 +42,5 @@
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
-  },
-  "resolutions": {
-    "**/istanbul-lib-instrument": "1.9.2"
   }
 }
